@@ -560,8 +560,14 @@
                             const company = document.getElementById('contact-company').value;
                             const message = document.getElementById('contact-message').value;
                         
-                            // Format the message
-                            const formattedMessage = `*Contact Information:*%0AName: ${name}%0AEmail: ${email}%0ACompany: ${company}%0A%0A*Message:*%0A${message}`;
+                           // Format the message
+                            const formattedMessage = `*Contact Information:*
+                                Name: ${name}
+                                Email: ${email}
+                                Company: ${company}
+
+                                *Message:*
+                                ${message}`;
                         
                             // WhatsApp phone number (Change this to your number)
                             const phoneNumber = '+2348124257453';
